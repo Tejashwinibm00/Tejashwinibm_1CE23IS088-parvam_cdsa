@@ -19,7 +19,8 @@
         a2.area = a^2;
         a2.perimeter = 4*a;
         printf("area(square) = %d\n perimeter(square) = %d\n",a2.area,a2.perimeter);
-    }
+        return 0;
+    }  
     int rectangle(){
         struct str1 a3;
         double l = 45.5 , b = 45.5;
